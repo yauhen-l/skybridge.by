@@ -1,0 +1,17 @@
+#!/bin/bash
+
+exit 0
+
+FILE=$1
+MESSAGE=$(cat $FILE)
+TICKET=$(git rev-parse --abbrev-ref HEAD | grep -Eo '[a-zA-Z]+-[0-9]+' | tr "[:lower:]" "[:upper:]")
+if [[ $TICKET == "" || "$MESSAGE" =~ "$TICKET" ]];then
+  exit 0;
+fi
+
+IFS=':'
+read -ra PARTS <<< "$MESSAGE"
+IFS=' '
+
+echo "${PARTS[0]}: $TICKET ${PARTS[1]}" > $FILE
+
