@@ -11,9 +11,9 @@ disableKinds = ["taxonomy", "term"]
 
 [params.author]
   name = "SkyBridge"
-  headline = '''Musical project of
+  headline = '''Музыкальный проект
   
-  Yauhen Lazurkin and Dmitry Pokrovskiy
+  Евгения Лазуркина и Дмитрия Покровского
 '''
 #  image = "skybridge.jpg"  # path relative to static directory
 
