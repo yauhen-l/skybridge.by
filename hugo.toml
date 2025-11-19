@@ -46,6 +46,7 @@ disableKinds = ["taxonomy", "term"]
     # { snapchat = "https://snapchat.com/add/username" },
     { spotify = "https://open.spotify.com/artist/1DpsQmReuR2wlNkaKQy0J7?si=Nbm8RwqNRKukjkX70nr8iA" },
     { apple = "https://music.apple.com/us/artist/skybridge/1797511602" },
+    { yandex = "https://music.yandex.com/artist/24809084" },
     { email = "mailto:skybridge.by@gmail.com" },
     #{ soundcloud = "https://soundcloud.com/yauhen-lazurkin" },
     #{ instagram = "https://instagram.com/username" },
