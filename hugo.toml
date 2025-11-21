@@ -2,7 +2,7 @@ baseURL = "https://skybridge.by/"
 languageCode = "ru"
 defaultContentLanguage = "ru"
 
-title = "SkyBridge"
+title = "SKYBRIDGE"
 # copyright = "Copy, _right?_ :thinking_face:"
 theme = "lynx"
 
@@ -10,12 +10,14 @@ enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 [params.author]
-  name = "SkyBridge"
+#  name = "SkyBridge"
   headline = '''Музыкальный проект
   
-  Евгения Лазуркина и Дмитрия Покровского
+  Евгения Лазуркина и
+         
+  Дмитрия Покровского
 '''
-#  image = "skybridge.jpg"  # path relative to static directory
+  image = "skybridge-mandala-logo.png"  # path relative to static directory
 
   links = [
     # { link = "https://link-to-some-website.com/" },
@@ -47,9 +49,9 @@ disableKinds = ["taxonomy", "term"]
     { spotify = "https://open.spotify.com/artist/1DpsQmReuR2wlNkaKQy0J7?si=Nbm8RwqNRKukjkX70nr8iA" },
     { apple = "https://music.apple.com/us/artist/skybridge/1797511602" },
     { yandex = "https://music.yandex.com/artist/24809084" },
+    { soundcloud = "https://soundcloud.com/skybridge-by" },
+    { instagram = "https://instagram.com/skybridge.by" },
     { email = "mailto:skybridge.by@gmail.com" },
-    #{ soundcloud = "https://soundcloud.com/yauhen-lazurkin" },
-    #{ instagram = "https://instagram.com/username" },
     # { stack-exchange = "https://stackexchange.com/users/userid/username" },
     # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
     # { steam = "https://steamcommunity.com/profiles/userid" },
